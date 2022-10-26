@@ -30,27 +30,49 @@
         Remplissez le formulaire ci-dessous pour commander des LEGO !
     </p>
     
-        <h2>Informations personnelles</h2>
+    <form>
+        <fieldset>
+            <legend><h3>Information personnelles</h3></legend>
+                    <p>
+                        Civilité :<br>
+                        <input type="radio" name="Genre" id="M."> 
+                        <label for="M.">M.</label>
+                        <input type="radio" name="Genre" id="Mme."> 
+                        <label for="Mme.">Mme.</label><br><br>
 
-    <p>
-        Civilité: M. Mme.
-        Nom:
-        Prénom:
-        Mail:
-    </p>
-    
-        <h2>Informations de livraison</h2>
-   
-    <p>
-        Quantité commandée: 1 boîte 2 boîtes 3 boîtes 4 boîtes 5 boîtes
-        Adresse de livraison:
-    </p>
-    
-        <h2>Confirmation</h2>
-
-    <p>
-        J'ai relu ma commande et certifie que ces informations sont correctes.
-    </p>
+                        <label for="Nom">Nom :</label><br>
+                        <input type="text" name="Nom" placeholder="Ex: Dupuis" id="Nom"><br><br>
+                        <label for="Prénom">Prénom :</label><br>
+                        <input type="text" name="Prénom" placeholder="Ex: Michel" id="Prénom"><br><br>
+                        <label for="Mail">Mail :</label><br>
+                        <input type="email" name="Mail" placeholder="exemple@exemple.com" id="Mail"> 
+                    </p>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Informations de livraison</h3></legend>
+                <p>
+                    <label for="quantité">Quantité commandée :</label><br>
+                    <select name="quantité" id="quantité">
+                        <option value="1">1 boîte</option>
+                        <option value="2">2 boîtes</option>
+                        <option value="3">3 boîtes</option>
+                        <option value="4">4 boîtes</option>
+                        <option value="5">5 boîtes</option>
+                    </select>
+                    <br><br>
+                    <label for="Adresselivraison">Adresse de livraison :</label><br>
+                    <input type="text" name="Adresselivraison" id="Adresselivraison">
+                </p>
+        </fieldset>
+        <fieldset>
+            <legend><h3>Confirmation</h3></legend>
+                <p>
+                    <input type="checkbox" name="Confirmer" id="Confirmer">
+                    J'ai relu ma commande et certifie que ces informations sont correctes. <br><br>
+                    <input type="submit" value="Confirmer la commande" name="Submit" id="Sumbit">
+                </p>
+        </fieldset>
+    </form>
 </main>
 
 <hr size="2" color="black">
