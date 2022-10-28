@@ -1,1 +1,17 @@
 /* Feuille de styles CSS */
+
+body {
+    background-color: #eeeeee;
+    border: #ffffff 2px;
+    margin: 32px;
+}
+
+.style {
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.span1 {
+    color:#007bff;
+    font-style: italic;
+}
