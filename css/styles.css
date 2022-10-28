@@ -15,3 +15,14 @@ body {
     color:#007bff;
     font-style: italic;
 }
+
+.link {
+    color: #007BFF;
+    font-weight: bold;
+    text-decoration: none ;
+    
+}
+
+a:hover {
+    text-decoration: underline;
+}
