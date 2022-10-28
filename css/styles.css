@@ -26,3 +26,8 @@ body {
 a:hover {
     text-decoration: underline;
 }
+
+.spe {
+    font-size:12px;
+    text-align: right;
+}
