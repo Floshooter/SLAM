@@ -31,3 +31,18 @@ a:hover {
     font-size:12px;
     text-align: right;
 }
+
+.t1{
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.t1 td {
+    border: 1px solid black;
+}
+
+.t1 th, .t1 td {
+    border: 1px solid black;
+}
+
