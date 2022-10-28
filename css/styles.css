@@ -49,3 +49,8 @@ a:hover {
 .Q17 {
     text-align: center;
 }
+
+hr {
+    font-size: 2px;
+    color: black;
+}
